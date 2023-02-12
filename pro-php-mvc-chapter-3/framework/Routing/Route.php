@@ -32,7 +32,7 @@ class Route
         return $this->parameters;
     }
 
-    public function name(string $name = null): string
+    public function name(string $name = null)
     {
         if ($name) {
             $this->name = $name;
