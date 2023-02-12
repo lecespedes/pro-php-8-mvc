@@ -8,7 +8,7 @@ use Throwable;
 class Router
 {
     protected array $routes = [];
-    protected array $errorHandler = [];
+    protected array $errorHandlers = [];
     protected Route $current;
 
     public function add(string $method, string $path, callable $handler): Route
